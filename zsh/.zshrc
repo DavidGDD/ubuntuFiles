@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/davidg/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -114,5 +114,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # PYTHON
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=~/Work/python/Envs
-source /home/davidg/.local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/Work/python/Envs
+source $HOME/.local/bin/virtualenvwrapper.sh
